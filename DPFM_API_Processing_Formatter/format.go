@@ -37,6 +37,7 @@ func ConvertToHeaderUpdates(header dpfm_api_input_reader.Header) *HeaderUpdates 
 			PointConsumptionType:			data.PointConsumptionType,
 			LastChangeDate:					data.LastChangeDate,
 			LastChangeTime:					data.LastChangeTime,
+			LastChangeUser:					data.LastChangeUser,
 	}
 }
 

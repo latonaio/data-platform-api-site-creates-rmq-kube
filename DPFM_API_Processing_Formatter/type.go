@@ -30,6 +30,7 @@ type HeaderUpdates struct {
 	PointConsumptionType      		string  `json:"PointConsumptionType"`
 	LastChangeDate					string	`json:"LastChangeDate"`
 	LastChangeTime					string	`json:"LastChangeTime"`
+	LastChangeUser					int		`json:"LastChangeUser"`
 }
 
 type PartnerUpdates struct {

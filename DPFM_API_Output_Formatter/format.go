@@ -127,6 +127,8 @@ func ConvertToHeader(
 		CreationTime:                  input.Header.CreationTime,
 		LastChangeDate:                input.Header.LastChangeDate,
 		LastChangeTime:                input.Header.LastChangeTime,
+		CreateUser:					   input.Header.CreateUser,
+		LastChangeUser:				   input.Header.LastChangeUser,
 		IsReleased:                    input.Header.IsReleased,
 		IsMarkedForDeletion:           input.Header.IsMarkedForDeletion,
 	}
